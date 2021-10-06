@@ -1,13 +1,13 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
-import {createStackNavigator} from '@react-navigation/stack';
-
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {useSelector} from 'react-redux';
+// Local
 import AuthStack from './authNavigator';
 import MainStack from './mainNavigator';
 import {authSelector} from '../redux/reducers/auth/authSelector';
 
-const Stack = createStackNavigator();
+const Stack = createNativeStackNavigator();
 
 /**
  *
@@ -18,7 +18,11 @@ export default function AppNavigator() {
   return (
     <>
       <NavigationContainer>
-        <Stack.Navigator headerMode="none" initialRouteName="AuthStack">
+        <Stack.Navigator
+          screenOptions={{
+            headerShown: false,
+          }}
+          initialRouteName="AuthStack">
           {!isAuthenticated ? (
             <Stack.Screen name="AuthStack" component={AuthStack} />
           ) : (
