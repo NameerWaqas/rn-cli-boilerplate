@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* RN_CLITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RN_CLITests.m */; };
+		00E356F31AD99517003FC87E /* BoilerplateRNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BoilerplateRNTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		494C1E43C5D894AD3476FA1C /* libPods-RN_CLI-RN_CLITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD6285DDD31903DC40C947D /* libPods-RN_CLI-RN_CLITests.a */; };
+		494C1E43C5D894AD3476FA1C /* libPods-BoilerplateRN-BoilerplateRNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD6285DDD31903DC40C947D /* libPods-BoilerplateRN-BoilerplateRNTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		FDBD9C3482ADC9C0B59B2EA7 /* libPods-RN_CLI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB01CACF4E3811FB7E27E22 /* libPods-RN_CLI.a */; };
+		FDBD9C3482ADC9C0B59B2EA7 /* libPods-BoilerplateRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB01CACF4E3811FB7E27E22 /* libPods-BoilerplateRN.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,27 +22,27 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = RN_CLI;
+			remoteInfo = BoilerplateRN;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* RN_CLITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RN_CLITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* BoilerplateRNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoilerplateRNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* RN_CLITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RN_CLITests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* RN_CLI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RN_CLI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RN_CLI/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RN_CLI/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RN_CLI/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RN_CLI/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RN_CLI/main.m; sourceTree = "<group>"; };
-		3DD6285DDD31903DC40C947D /* libPods-RN_CLI-RN_CLITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RN_CLI-RN_CLITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RN_CLI/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9903F87D5C7399C2D2E5825B /* Pods-RN_CLI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN_CLI.debug.xcconfig"; path = "Target Support Files/Pods-RN_CLI/Pods-RN_CLI.debug.xcconfig"; sourceTree = "<group>"; };
-		BFB01CACF4E3811FB7E27E22 /* libPods-RN_CLI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RN_CLI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5E7FA5F36C4E228DE1DE315 /* Pods-RN_CLI-RN_CLITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN_CLI-RN_CLITests.release.xcconfig"; path = "Target Support Files/Pods-RN_CLI-RN_CLITests/Pods-RN_CLI-RN_CLITests.release.xcconfig"; sourceTree = "<group>"; };
-		CEC370E6B378250DC276CF29 /* Pods-RN_CLI-RN_CLITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN_CLI-RN_CLITests.debug.xcconfig"; path = "Target Support Files/Pods-RN_CLI-RN_CLITests/Pods-RN_CLI-RN_CLITests.debug.xcconfig"; sourceTree = "<group>"; };
-		E918B39C6D46299B2902E483 /* Pods-RN_CLI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN_CLI.release.xcconfig"; path = "Target Support Files/Pods-RN_CLI/Pods-RN_CLI.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* BoilerplateRNTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoilerplateRNTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* BoilerplateRN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoilerplateRN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = BoilerplateRN/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = BoilerplateRN/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BoilerplateRN/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BoilerplateRN/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BoilerplateRN/main.m; sourceTree = "<group>"; };
+		3DD6285DDD31903DC40C947D /* libPods-BoilerplateRN-BoilerplateRNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BoilerplateRN-BoilerplateRNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = BoilerplateRN/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9903F87D5C7399C2D2E5825B /* Pods-BoilerplateRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoilerplateRN.debug.xcconfig"; path = "Target Support Files/Pods-BoilerplateRN/Pods-BoilerplateRN.debug.xcconfig"; sourceTree = "<group>"; };
+		BFB01CACF4E3811FB7E27E22 /* libPods-BoilerplateRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BoilerplateRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5E7FA5F36C4E228DE1DE315 /* Pods-BoilerplateRN-BoilerplateRNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoilerplateRN-BoilerplateRNTests.release.xcconfig"; path = "Target Support Files/Pods-BoilerplateRN-BoilerplateRNTests/Pods-BoilerplateRN-BoilerplateRNTests.release.xcconfig"; sourceTree = "<group>"; };
+		CEC370E6B378250DC276CF29 /* Pods-BoilerplateRN-BoilerplateRNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoilerplateRN-BoilerplateRNTests.debug.xcconfig"; path = "Target Support Files/Pods-BoilerplateRN-BoilerplateRNTests/Pods-BoilerplateRN-BoilerplateRNTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E918B39C6D46299B2902E483 /* Pods-BoilerplateRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoilerplateRN.release.xcconfig"; path = "Target Support Files/Pods-BoilerplateRN/Pods-BoilerplateRN.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				494C1E43C5D894AD3476FA1C /* libPods-RN_CLI-RN_CLITests.a in Frameworks */,
+				494C1E43C5D894AD3476FA1C /* libPods-BoilerplateRN-BoilerplateRNTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,20 +59,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDBD9C3482ADC9C0B59B2EA7 /* libPods-RN_CLI.a in Frameworks */,
+				FDBD9C3482ADC9C0B59B2EA7 /* libPods-BoilerplateRN.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* RN_CLITests */ = {
+		00E356EF1AD99517003FC87E /* BoilerplateRNTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* RN_CLITests.m */,
+				00E356F21AD99517003FC87E /* BoilerplateRNTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = RN_CLITests;
+			path = BoilerplateRNTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -83,7 +83,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* RN_CLI */ = {
+		13B07FAE1A68108700A75B9A /* BoilerplateRN */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -93,15 +93,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = RN_CLI;
+			name = BoilerplateRN;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				BFB01CACF4E3811FB7E27E22 /* libPods-RN_CLI.a */,
-				3DD6285DDD31903DC40C947D /* libPods-RN_CLI-RN_CLITests.a */,
+				BFB01CACF4E3811FB7E27E22 /* libPods-BoilerplateRN.a */,
+				3DD6285DDD31903DC40C947D /* libPods-BoilerplateRN-BoilerplateRNTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,10 +109,10 @@
 		4C8B77CF4FCDAA6841408086 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9903F87D5C7399C2D2E5825B /* Pods-RN_CLI.debug.xcconfig */,
-				E918B39C6D46299B2902E483 /* Pods-RN_CLI.release.xcconfig */,
-				CEC370E6B378250DC276CF29 /* Pods-RN_CLI-RN_CLITests.debug.xcconfig */,
-				C5E7FA5F36C4E228DE1DE315 /* Pods-RN_CLI-RN_CLITests.release.xcconfig */,
+				9903F87D5C7399C2D2E5825B /* Pods-BoilerplateRN.debug.xcconfig */,
+				E918B39C6D46299B2902E483 /* Pods-BoilerplateRN.release.xcconfig */,
+				CEC370E6B378250DC276CF29 /* Pods-BoilerplateRN-BoilerplateRNTests.debug.xcconfig */,
+				C5E7FA5F36C4E228DE1DE315 /* Pods-BoilerplateRN-BoilerplateRNTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -128,9 +128,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* RN_CLI */,
+				13B07FAE1A68108700A75B9A /* BoilerplateRN */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* RN_CLITests */,
+				00E356EF1AD99517003FC87E /* BoilerplateRNTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				4C8B77CF4FCDAA6841408086 /* Pods */,
@@ -143,8 +143,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* RN_CLI.app */,
-				00E356EE1AD99517003FC87E /* RN_CLITests.xctest */,
+				13B07F961A680F5B00A75B9A /* BoilerplateRN.app */,
+				00E356EE1AD99517003FC87E /* BoilerplateRNTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* RN_CLITests */ = {
+		00E356ED1AD99517003FC87E /* BoilerplateRNTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RN_CLITests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BoilerplateRNTests" */;
 			buildPhases = (
 				B3F39F8DC1C60CFC67060BC9 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -168,14 +168,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = RN_CLITests;
-			productName = RN_CLITests;
-			productReference = 00E356EE1AD99517003FC87E /* RN_CLITests.xctest */;
+			name = BoilerplateRNTests;
+			productName = BoilerplateRNTests;
+			productReference = 00E356EE1AD99517003FC87E /* BoilerplateRNTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* RN_CLI */ = {
+		13B07F861A680F5B00A75B9A /* BoilerplateRN */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RN_CLI" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "BoilerplateRN" */;
 			buildPhases = (
 				3871AA2C0B46EA3F4083704E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -190,9 +190,9 @@
 			);
 			dependencies = (
 			);
-			name = RN_CLI;
-			productName = RN_CLI;
-			productReference = 13B07F961A680F5B00A75B9A /* RN_CLI.app */;
+			name = BoilerplateRN;
+			productName = BoilerplateRN;
+			productReference = 13B07F961A680F5B00A75B9A /* BoilerplateRN.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RN_CLI" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "BoilerplateRN" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,8 +225,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* RN_CLI */,
-				00E356ED1AD99517003FC87E /* RN_CLITests */,
+				13B07F861A680F5B00A75B9A /* BoilerplateRN */,
+				00E356ED1AD99517003FC87E /* BoilerplateRNTests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,15 +271,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RN_CLI-RN_CLITests/Pods-RN_CLI-RN_CLITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BoilerplateRN-BoilerplateRNTests/Pods-BoilerplateRN-BoilerplateRNTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RN_CLI-RN_CLITests/Pods-RN_CLI-RN_CLITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BoilerplateRN-BoilerplateRNTests/Pods-BoilerplateRN-BoilerplateRNTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RN_CLI-RN_CLITests/Pods-RN_CLI-RN_CLITests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoilerplateRN-BoilerplateRNTests/Pods-BoilerplateRN-BoilerplateRNTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3871AA2C0B46EA3F4083704E /* [CP] Check Pods Manifest.lock */ = {
@@ -297,7 +297,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RN_CLI-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BoilerplateRN-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -310,15 +310,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RN_CLI/Pods-RN_CLI-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BoilerplateRN/Pods-BoilerplateRN-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RN_CLI/Pods-RN_CLI-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BoilerplateRN/Pods-BoilerplateRN-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RN_CLI/Pods-RN_CLI-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoilerplateRN/Pods-BoilerplateRN-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B3F39F8DC1C60CFC67060BC9 /* [CP] Check Pods Manifest.lock */ = {
@@ -336,7 +336,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RN_CLI-RN_CLITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BoilerplateRN-BoilerplateRNTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -349,15 +349,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RN_CLI/Pods-RN_CLI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BoilerplateRN/Pods-BoilerplateRN-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RN_CLI/Pods-RN_CLI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BoilerplateRN/Pods-BoilerplateRN-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RN_CLI/Pods-RN_CLI-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoilerplateRN/Pods-BoilerplateRN-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E44B9FA2192724B1FFC1E7B1 /* [CP] Embed Pods Frameworks */ = {
@@ -366,15 +366,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RN_CLI-RN_CLITests/Pods-RN_CLI-RN_CLITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BoilerplateRN-BoilerplateRNTests/Pods-BoilerplateRN-BoilerplateRNTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RN_CLI-RN_CLITests/Pods-RN_CLI-RN_CLITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BoilerplateRN-BoilerplateRNTests/Pods-BoilerplateRN-BoilerplateRNTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RN_CLI-RN_CLITests/Pods-RN_CLI-RN_CLITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoilerplateRN-BoilerplateRNTests/Pods-BoilerplateRN-BoilerplateRNTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -403,7 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* RN_CLITests.m in Sources */,
+				00E356F31AD99517003FC87E /* BoilerplateRNTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +421,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* RN_CLI */;
+			target = 13B07F861A680F5B00A75B9A /* BoilerplateRN */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,14 +429,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEC370E6B378250DC276CF29 /* Pods-RN_CLI-RN_CLITests.debug.xcconfig */;
+			baseConfigurationReference = CEC370E6B378250DC276CF29 /* Pods-BoilerplateRN-BoilerplateRNTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = RN_CLITests/Info.plist;
+				INFOPLIST_FILE = BoilerplateRNTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,17 +450,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RN_CLI.app/RN_CLI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoilerplateRN.app/BoilerplateRN";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5E7FA5F36C4E228DE1DE315 /* Pods-RN_CLI-RN_CLITests.release.xcconfig */;
+			baseConfigurationReference = C5E7FA5F36C4E228DE1DE315 /* Pods-BoilerplateRN-BoilerplateRNTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = RN_CLITests/Info.plist;
+				INFOPLIST_FILE = BoilerplateRNTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -474,19 +474,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RN_CLI.app/RN_CLI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoilerplateRN.app/BoilerplateRN";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9903F87D5C7399C2D2E5825B /* Pods-RN_CLI.debug.xcconfig */;
+			baseConfigurationReference = 9903F87D5C7399C2D2E5825B /* Pods-BoilerplateRN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = RN_CLI/Info.plist;
+				INFOPLIST_FILE = BoilerplateRN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,7 +497,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = RN_CLI;
+				PRODUCT_NAME = BoilerplateRN;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -506,12 +506,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E918B39C6D46299B2902E483 /* Pods-RN_CLI.release.xcconfig */;
+			baseConfigurationReference = E918B39C6D46299B2902E483 /* Pods-BoilerplateRN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = RN_CLI/Info.plist;
+				INFOPLIST_FILE = BoilerplateRN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,7 +522,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = RN_CLI;
+				PRODUCT_NAME = BoilerplateRN;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -654,7 +654,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RN_CLITests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BoilerplateRNTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -663,7 +663,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RN_CLI" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "BoilerplateRN" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -672,7 +672,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RN_CLI" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "BoilerplateRN" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

@@ -1,4 +1,4 @@
-package com.rn_cli;
+package com.nameerwaqas.bprn;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "RN_CLI";
+    return "BoilerplateRN";
   }
 }
