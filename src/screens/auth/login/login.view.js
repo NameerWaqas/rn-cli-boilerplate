@@ -1,10 +1,8 @@
 import React from 'react';
-import { View, Text, TouchableOpacity } from 'react-native';
-import { useDispatch } from 'react-redux';
+import {View, Text, TouchableOpacity} from 'react-native';
 import PropTypes from 'prop-types';
-
-import { updateAuth } from '../../redux/reducers/auth/auth';
-import styles from './styles/Login.style';
+// Local
+import styles from './login.style';
 
 /**
  *
@@ -13,9 +11,7 @@ import styles from './styles/Login.style';
  * @param {Function} props.navigation.navigate
  * @returns Login screen Component
  */
-export default function Login({ navigation }) {
-  const dispatch = useDispatch();
-
+export default function LoginView({navigation, updateAuth}) {
   const label = (
     <View>
       <Text style={styles.label}>Login Screen</Text>
@@ -23,10 +19,7 @@ export default function Login({ navigation }) {
   );
 
   const loginButton = (
-    <TouchableOpacity
-      onPress={() => dispatch(updateAuth(true))}
-      style={styles.button}
-    >
+    <TouchableOpacity onPress={() => updateAuth(true)} style={styles.button}>
       <Text style={styles.buttonText}>Login</Text>
     </TouchableOpacity>
   );
@@ -46,6 +39,6 @@ export default function Login({ navigation }) {
   );
 }
 
-Login.propTypes = {
-  navigation: PropTypes.shape({ navigate: PropTypes.func }).isRequired,
+LoginView.propTypes = {
+  navigation: PropTypes.shape({navigate: PropTypes.func}).isRequired,
 };

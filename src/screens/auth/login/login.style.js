@@ -1,8 +1,8 @@
-import { StyleSheet } from 'react-native';
+import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
-  container: { flex: 1, justifyContent: 'center', alignItems: 'center' },
-  label: { fontSize: 20 },
+  container: {flex: 1, justifyContent: 'center', alignItems: 'center'},
+  label: {fontSize: 20},
   button: {
     width: '50%',
     height: 50,
@@ -11,6 +11,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderRadius: 20,
     marginTop: 10,
+    marginBottom: 10,
   },
   buttonText: {
     color: 'white',

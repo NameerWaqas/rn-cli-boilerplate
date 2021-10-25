@@ -1,17 +1,13 @@
 import React from 'react';
-import { View, Text, TouchableOpacity } from 'react-native';
-import { useDispatch } from 'react-redux';
-
-import { updateAuth } from '../../redux/reducers/auth/auth';
-import styles from './styles/Register.style';
+import {View, Text, TouchableOpacity} from 'react-native';
+// Local
+import styles from './register.style';
 
 /**
  *
  * @returns Registration screen component
  */
-export default function Register() {
-  const dispatch = useDispatch();
-
+export default function RegisterView({updateAuth}) {
   const label = (
     <View>
       <Text style={styles.label}>Registration Screen</Text>
@@ -19,10 +15,7 @@ export default function Register() {
   );
 
   const loginButton = (
-    <TouchableOpacity
-      onPress={() => dispatch(updateAuth(true))}
-      style={styles.button}
-    >
+    <TouchableOpacity onPress={() => updateAuth(true)} style={styles.button}>
       <Text style={styles.buttonText}>Register</Text>
     </TouchableOpacity>
   );
