@@ -1,17 +1,17 @@
 import React from 'react';
-import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {HomeContainer} from '../screens';
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 // Local
+import {HomeContainer} from '../screens';
 
-const Stack = createNativeStackNavigator();
+const Tab = createBottomTabNavigator();
 
 export default function MainStack() {
   return (
-    <Stack.Navigator
+    <Tab.Navigator
       screenOptions={{
         headerShown: false,
       }}>
-      <Stack.Screen name="Home" component={HomeContainer} />
-    </Stack.Navigator>
+      <Tab.Screen name="Home" component={HomeContainer} />
+    </Tab.Navigator>
   );
 }
